@@ -78,11 +78,22 @@
       ##
       ## Other Drivers
       ##
+      SERIAL_8250_DW = module;
+      MFD_INTEL_LPSS = module;
+      MFD_INTEL_LPSS_PCI = module;
+      PINCTRL_INTEL = module;
+      PINCTRL_ALDERLAKE = module;
+      PINCTRL_CANNONLAKE = module;
+      PINCTRL_ICELAKE = module;
+      PINCTRL_METEORLAKE = module;
+      PINCTRL_SUNRISEPOINT = module;
+      PINCTRL_TIGERLAKE = module;
       INPUT_SOC_BUTTON_ARRAY = module;
       SURFACE_3_POWER_OPREGION = module;
       SURFACE_PRO3_BUTTON = module;
       SURFACE_GPE = module;
       SURFACE_BOOK1_DGPU_SWITCH = module;
+      
     };
   }
   {
