@@ -78,16 +78,16 @@
       ##
       ## Other Drivers
       ##
-      SERIAL_8250_DW = module;
-      MFD_INTEL_LPSS = module;
-      MFD_INTEL_LPSS_PCI = module;
-      PINCTRL_INTEL = module;
-      PINCTRL_ALDERLAKE = module;
-      PINCTRL_CANNONLAKE = module;
-      PINCTRL_ICELAKE = module;
-      PINCTRL_METEORLAKE = module;
-      PINCTRL_SUNRISEPOINT = module;
-      PINCTRL_TIGERLAKE = module;
+      SERIAL_8250_DW = yes;
+      MFD_INTEL_LPSS = yes;
+      MFD_INTEL_LPSS_PCI = yes;
+      PINCTRL_INTEL = yes;
+      PINCTRL_ALDERLAKE = yes;
+      PINCTRL_CANNONLAKE = yes;
+      PINCTRL_ICELAKE = yes;
+      PINCTRL_METEORLAKE = yes;
+      PINCTRL_SUNRISEPOINT = yes;
+      PINCTRL_TIGERLAKE = yes;
       INPUT_SOC_BUTTON_ARRAY = module;
       SURFACE_3_POWER_OPREGION = module;
       SURFACE_PRO3_BUTTON = module;
